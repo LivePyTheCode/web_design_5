@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">description</p>
+    <form id="survey-form">
+      <label id="name-label">
+        <input required id="name" type="text" placeholder="Name">
+        </input>
+      </label>
+      <label for="email"id="email-label">
+        <input required id="email" type="email" placeholder="Email">
+        </input>
+      </label>
+      <label id="number-label">
+        <input id="number" type="number" min="0" max="100" placeholder="Number">
+        </input>
+      </label>
+      <label>
+        <textarea for="survey-form">
+        </textarea>
+      </label>
+      <select id="dropdown">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+      </select>
+      <input type="radio" id="radio1" name="radioGroup" value="option1">
+      <label for="radio1">Option 1</label>
+      <input type="radio" id="radio2" name="radioGroup" value="option2">
+      <label for="radio2">Option 2</label>
+      <input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+      <label for="checkbox1">Option 1</label>
+      <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+      <label for="checkbox2">Option 2</label>
+      <input id="submit" type="submit"for="survey-form"></input>
+    </form>
+</body>
+</html>
